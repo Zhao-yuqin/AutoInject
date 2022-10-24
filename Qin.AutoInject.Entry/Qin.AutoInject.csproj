@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<Description>This package makes dependency injection easier.</Description>
+		<PackageIcon>16gl-Q.png</PackageIcon>
+		<VersionPrefix>1.0.2</VersionPrefix>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="C:\Users\38795\Pictures\16gl-Q.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Qin.AutoInject\Qin.AutoInject.Abstraction.csproj" />
+	</ItemGroup>
+
+</Project>

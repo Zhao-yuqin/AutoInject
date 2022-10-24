@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Title>AutoInject</Title>
+    <Description>This package makes dependency injection easier.</Description>
+    <PackageIcon>16gl-Q.png</PackageIcon>
+	  <VersionPrefix>1.0.2</VersionPrefix>
+	  <RootNamespace>Qin.AutoInject</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\38795\Pictures\16gl-Q.png" Link="16gl-Q.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>
